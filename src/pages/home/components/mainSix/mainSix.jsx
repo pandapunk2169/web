@@ -6,14 +6,14 @@ export default function mainSix() {
   return (
     <main className='main-six'>
       <div className='main-bg-wrap app-hidden'>
-        <img className='big-main-bg' src='/src/assets/pc/main-bg6.png' />
-        <img className='big-main-bg' src='/src/assets/pc/main-bg6.2.png' />
+        <img className='big-main-bg' src='/imgs/pc/main-bg6.png' />
+        <img className='big-main-bg' src='/imgs/pc/main-bg6.2.png' />
       </div>
 
       <div className='main-bg-wrap pc-hidden'>
-        <img className='main-bg first' src='/src/assets/app/main-bg6.1.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg6.2.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg6.3.png' />
+        <img className='main-bg first' src='/imgs/app/main-bg6.1.png' />
+        <img className='main-bg' src='/imgs/app/main-bg6.2.png' />
+        <img className='main-bg' src='/imgs/app/main-bg6.3.png' />
       </div>
       <div className='main-wrap '>
         <div id='ecosystem' className='title'>
@@ -29,7 +29,7 @@ export default function mainSix() {
                 <li className='img-item' key={s}>
                   <img
                     className='img'
-                    src={`/src/assets/heros/${heroLists[0].imgBaseUrl}${
+                    src={`/imgs/heros/${heroLists[0].imgBaseUrl}${
                       si + 1
                     }.png`}
                   />
@@ -46,7 +46,7 @@ export default function mainSix() {
                   <li className='img-item' key={s}>
                     <img
                       className='img'
-                      src={`/src/assets/heros/${heroLists[1].imgBaseUrl}${
+                      src={`/imgs/heros/${heroLists[1].imgBaseUrl}${
                         si + 1
                       }.png`}
                     />
@@ -62,7 +62,7 @@ export default function mainSix() {
                   <li className='img-item' key={s}>
                     <img
                       className='img'
-                      src={`/src/assets/heros/${heroLists[2].imgBaseUrl}${
+                      src={`/imgs/heros/${heroLists[2].imgBaseUrl}${
                         si + 1
                       }.png`}
                     />
@@ -80,7 +80,7 @@ export default function mainSix() {
                 <li className='img-item' key={s}>
                   <img
                     className='img'
-                    src={`/src/assets/heros/${heroLists[3].imgBaseUrl}${
+                    src={`/imgs/heros/${heroLists[3].imgBaseUrl}${
                       si + 1
                     }.png`}
                   />
@@ -97,7 +97,7 @@ export default function mainSix() {
                 <li className='img-item' key={s}>
                   <img
                     className='img'
-                    src={`/src/assets/heros/${heroLists[4].imgBaseUrl}${
+                    src={`/imgs/heros/${heroLists[4].imgBaseUrl}${
                       si + 1
                     }.png`}
                   />
@@ -114,7 +114,7 @@ export default function mainSix() {
                 <li className='img-item' key={s}>
                   <img
                     className='img'
-                    src={`/src/assets/heros/${heroLists[5].imgBaseUrl}${
+                    src={`/imgs/heros/${heroLists[5].imgBaseUrl}${
                       si + 1
                     }.png`}
                   />

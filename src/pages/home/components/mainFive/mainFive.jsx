@@ -4,8 +4,8 @@ import './mainFive750.scss'
 export default function mainFive() {
   return (
     <main className='main-five'>
-      <img className='main-bg' src='/src/assets/app/main-bg5.png' />
-      <img className='big-main-bg' src='/src/assets/pc/main-bg5.png' />
+      <img className='main-bg' src='/imgs/app/main-bg5.png' />
+      <img className='big-main-bg' src='/imgs/pc/main-bg5.png' />
 
       <div className='main-wrap'>
         <div className='vision-desc-wrap'>
@@ -24,7 +24,7 @@ export default function mainFive() {
         </div>
         <img
           className='big-hero app-hidden'
-          src='/src/assets/pc/big-hero.png'
+          src='/imgs/pc/big-hero.png'
         />
       </div>
     </main>

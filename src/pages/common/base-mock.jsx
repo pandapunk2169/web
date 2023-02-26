@@ -1,13 +1,13 @@
 export const avaLists = [
-  "/src/assets/ava/1.png",
-  "/src/assets/ava/2.png",
-  "/src/assets/ava/3.png",
-  "/src/assets/ava/4.png",
-  "/src/assets/ava/5.png",
-  "/src/assets/ava/6.png",
-  "/src/assets/ava/7.png",
-  "/src/assets/ava/8.png",
-  "/src/assets/ava/9.png",
+  "/imgs/ava/1.png",
+  "/imgs/ava/2.png",
+  "/imgs/ava/3.png",
+  "/imgs/ava/4.png",
+  "/imgs/ava/5.png",
+  "/imgs/ava/6.png",
+  "/imgs/ava/7.png",
+  "/imgs/ava/8.png",
+  "/imgs/ava/9.png",
 ]
 export const historyLists = [
   {

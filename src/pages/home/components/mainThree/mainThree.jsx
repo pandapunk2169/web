@@ -17,8 +17,8 @@ export default function mainThree() {
 
   return (
     <main className='main-three'>
-      <img className='main-bg' src='/src/assets/app/main-bg3.png' />
-      <img className='big-main-bg' src='/src/assets/pc/main-bg3.png' />
+      <img className='main-bg' src='/imgs/app/main-bg3.png' />
+      <img className='big-main-bg' src='/imgs/pc/main-bg3.png' />
       <div className='main-wrap'>
         <p className='title'>Nuclear Explosion</p>
         <div className='ava-lists-wrap'>
@@ -31,8 +31,8 @@ export default function mainThree() {
           </div>
         </div>
         <div className='r-l-wrap flex'>
-          <img className='left' src='/src/assets/ava/left.png' />
-          <img className='right' src='/src/assets/ava/right.png' />
+          <img className='left' src='/imgs/ava/left.png' />
+          <img className='right' src='/imgs/ava/right.png' />
         </div>
       </div>
     </main>

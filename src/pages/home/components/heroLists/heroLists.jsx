@@ -12,7 +12,7 @@ export default function HeroLists() {
               <li className='img-item' key={s}>
                 <img
                   className='img'
-                  src={`/src/assets/heros/${heroLists[0].imgBaseUrl}${
+                  src={`/imgs/heros/${heroLists[0].imgBaseUrl}${
                     si + 1
                   }.png`}
                 />
@@ -29,7 +29,7 @@ export default function HeroLists() {
                 <li className='img-item' key={s}>
                   <img
                     className='img'
-                    src={`/src/assets/heros/${heroLists[1].imgBaseUrl}${
+                    src={`/imgs/heros/${heroLists[1].imgBaseUrl}${
                       si + 1
                     }.png`}
                   />
@@ -45,7 +45,7 @@ export default function HeroLists() {
                 <li className='img-item' key={s}>
                   <img
                     className='img'
-                    src={`/src/assets/heros/${heroLists[2].imgBaseUrl}${
+                    src={`/imgs/heros/${heroLists[2].imgBaseUrl}${
                       si + 1
                     }.png`}
                   />
@@ -64,7 +64,7 @@ export default function HeroLists() {
             <li className='img-item' key={s}>
               <img
                 className='img'
-                src={`/src/assets/heros/${heroLists[3].imgBaseUrl}${
+                src={`/imgs/heros/${heroLists[3].imgBaseUrl}${
                   si + 1
                 }.png`}
               />
@@ -81,7 +81,7 @@ export default function HeroLists() {
             <li className='img-item' key={s}>
               <img
                 className='img'
-                src={`/src/assets/heros/${heroLists[4].imgBaseUrl}${
+                src={`/imgs/heros/${heroLists[4].imgBaseUrl}${
                   si + 1
                 }.png`}
               />
@@ -98,7 +98,7 @@ export default function HeroLists() {
             <li className='img-item' key={s}>
               <img
                 className='img'
-                src={`/src/assets/heros/${heroLists[5].imgBaseUrl}${
+                src={`/imgs/heros/${heroLists[5].imgBaseUrl}${
                   si + 1
                 }.png`}
               />

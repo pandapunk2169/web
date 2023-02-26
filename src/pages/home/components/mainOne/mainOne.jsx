@@ -3,13 +3,13 @@ import './mainOne750.scss'
 export default function mainOne() {
   return (
     <main className='main-one' id='about'>
-      <img className='big-main-bg' src='/src/assets/pc/main-bg.png' />
-      <img className='main-bg' src='/src/assets/app/main-bg.png' />
+      <img className='big-main-bg' src='/imgs/pc/main-bg.png' />
+      <img className='main-bg' src='/imgs/app/main-bg.png' />
       <div className='main-wrap'>
         <div className='title-wrap'>
           <img
             className='main-logo'
-            src='/src/assets/pc/logo-big.png'
+            src='/imgs/pc/logo-big.png'
             alt='logo'
           />
           <p className='main-title'>
@@ -22,8 +22,8 @@ export default function mainOne() {
             <p className='main-th-title'>
               CONTRACT ADDRESS : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
             </p>
-            <img className='copy' src='/src/assets/pc/copy.png' />
-            {/* src='/src/assets/pc/copy.png' */}
+            <img className='copy' src='/imgs/pc/copy.png' />
+            {/* src='/imgs/pc/copy.png' */}
           </div>
         </div>
         <ul className='time-wrap'>
@@ -92,7 +92,7 @@ export default function mainOne() {
             </div>
           </div>
         </div>
-        <img className='c-w-btn' src='/src/assets/pc/connect-wallet.png' />
+        <img className='c-w-btn' src='/imgs/pc/connect-wallet.png' />
         <div className='end-text-desc'>
           PANDAREN MINTED:
           <span className='green-t'>10,000</span>/ 10,000

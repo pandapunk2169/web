@@ -8,22 +8,22 @@ export default function mainSeven() {
       <div className='main-bg-wrap app-hidden'>
         <img
           className='big-main-bg first'
-          src='/src/assets/pc/main-bg7.1.png'
+          src='/imgs/pc/main-bg7.1.png'
         />
-        <img className='big-main-bg' src='/src/assets/pc/main-bg7.2.png' />
+        <img className='big-main-bg' src='/imgs/pc/main-bg7.2.png' />
         <img
           className='big-main-bg second'
-          src='/src/assets/pc/main-bg7.3.png'
+          src='/imgs/pc/main-bg7.3.png'
         />
       </div>
       <div className='main-bg-wrap pc-hidden'>
-        <img className='main-bg first' src='/src/assets/app/main-bg7.1.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg7.2.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg7.3.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg7.4.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg7.5.png' />
-        <img className='main-bg' src='/src/assets/app/main-bg7.6.png' />
-        <img className='main-bg second' src='/src/assets/app/main-bg7.7.png' />
+        <img className='main-bg first' src='/imgs/app/main-bg7.1.png' />
+        <img className='main-bg' src='/imgs/app/main-bg7.2.png' />
+        <img className='main-bg' src='/imgs/app/main-bg7.3.png' />
+        <img className='main-bg' src='/imgs/app/main-bg7.4.png' />
+        <img className='main-bg' src='/imgs/app/main-bg7.5.png' />
+        <img className='main-bg' src='/imgs/app/main-bg7.6.png' />
+        <img className='main-bg second' src='/imgs/app/main-bg7.7.png' />
       </div>
       <div className='main-wrap'>
         <div id='heros' className='main-title'>
@@ -35,7 +35,7 @@ export default function mainSeven() {
             <li className='hero-item'>
               <img
                 className='hero-img'
-                src={`/src/assets/pc/hero${idx + 1}.png`}
+                src={`/imgs/pc/hero${idx + 1}.png`}
               ></img>
               <div className='title'>{item.title}</div>
               <div className='sub-title'>{item.subTitle}</div>
@@ -66,7 +66,7 @@ export default function mainSeven() {
           </div>
           <img
             className='ask-green-third-title'
-            src='/src/assets/pc/greentext.png'
+            src='/imgs/pc/greentext.png'
           />
         </div>
       </div>
