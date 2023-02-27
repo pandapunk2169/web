@@ -1,5 +1,10 @@
 @import '/src/pages/common/help.scss';
 @import './mainSix1980.scss';
+.main-six {
+  .ind-lists-desc {
+    font-family: HarmonyOS_Sans_Regular;
+  }
+}
 @media screen and (max-width: 750px) {
   .main-six {
     .main-bg-wrap .first {
@@ -42,6 +47,7 @@
               margin-right: auto;
             }
             .img-name {
+              font-family: HarmonyOS_Sans_Regular;
               height: 16px;
               line-height: 16px;
               font-size: 12px;
@@ -52,8 +58,15 @@
         }
         .two-items {
           .img-wrap {
-            padding: 19px 18px 23px 18px;
+            column-gap: px(20);
+            padding: 19px 17px 23px 18px;
           }
+        }
+        .gap-40px {
+          column-gap: px(40);
+        }
+        .gap-6px {
+          column-gap: px(6);
         }
         .one-items {
           .img-wrap {
@@ -62,7 +75,7 @@
         }
         .three-items {
           .img-wrap {
-            padding: 13px 44px 27px 44px;
+            padding: px(13) px(44) px(27) px(44);
           }
         }
         .four-items {

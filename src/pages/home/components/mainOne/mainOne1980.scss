@@ -8,6 +8,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
       .main-logo {
         margin-top: 147px;
         width: 148px;
@@ -55,6 +56,7 @@
       margin-right: auto;
       align-items: center;
       justify-content: center;
+      font-family:  HarmonyOS_Sans_Bold;
       & > li:last-child {
         margin-right: 0;
       }
@@ -122,6 +124,7 @@
       height: px2(120);
       margin-left: auto;
       margin-right: auto;
+      font-family:  HarmonyOS_Sans_Bold;
       .board {
         width: 100%;
         background-color: #011b36;
@@ -196,6 +199,7 @@
       margin: px2(49) auto px2(17) auto;
     }
     .end-text-desc {
+      font-family:  HarmonyOS_Sans_Bold;
       width: 100%;
       color: #fff;
       text-align: center;

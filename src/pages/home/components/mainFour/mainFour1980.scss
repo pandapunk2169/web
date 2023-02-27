@@ -13,6 +13,11 @@
       .text-wrap {
         position: absolute;
         line-height: px2(38);
+        .green-t {
+          font-size: px2(22);
+          font-family: Videopac;
+          color: $green;
+        }
         .desc {
           font-size: 14px;
           color: #f5e1dc;
@@ -54,7 +59,7 @@
         white-space: nowrap;
         line-height: 36px;
         font-size: 14px;
-        margin-left: px2(100);
+        margin-left: px2(120);
       }
     }
   }

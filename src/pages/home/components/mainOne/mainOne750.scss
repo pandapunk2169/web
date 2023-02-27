@@ -75,6 +75,7 @@
       flex-direction: column;
       padding-left: 16px;
       padding-right: 16px;
+      font-family:  HarmonyOS_Sans_Bold;
       & > li {
         list-style: none;
         display: flex;
@@ -140,7 +141,7 @@
       width: 100%;
       padding-left: 16px;
       padding-right: 16px;
-
+      font-family:  HarmonyOS_Sans_Bold;
       .board {
         width: 100%;
         background-color: #011b36;
@@ -207,6 +208,7 @@
       margin: 17px auto;
     }
     .end-text-desc {
+      font-family:  HarmonyOS_Sans_Bold;
       width: 100%;
       color: #fff;
       text-align: center;

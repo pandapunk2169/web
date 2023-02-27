@@ -1,6 +1,10 @@
 @import '/src/pages/common/help.scss';
 .home-container {
-  // overflow-x: hidden;
+  width: 100%;
+  overflow: hidden;
+  background-color: #210338;
+  font-family: Videopac;
+
   header {
     display: flex;
     position: fixed;
@@ -27,6 +31,7 @@
   .main-wrap {
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     color: #fff;
   }
@@ -34,27 +39,23 @@
     .big-main-bg {
       width: 100%;
     }
-    .main-bg,.pc-hidden {
+    .main-bg,
+    .pc-hidden {
       display: none;
     }
     .main-wrap {
       z-index: 2;
     }
-    
   }
   @media screen and (max-width: 750px) {
-    .home-container {
-      overflow-x: auto;
-    }
     .big-main-bg {
       display: none;
     }
     .main-bg {
-      width: 100vw;
+      width: 100%;
     }
-    .app-hidden{
+    .app-hidden {
       display: none;
     }
   }
 }
-

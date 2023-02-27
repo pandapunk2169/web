@@ -38,10 +38,10 @@ export default function mainSix() {
               ))}
             </ul>
           </li>
-          <div className='grid grid-cols-2 gap-x-1.5'>
+          <div className='grid grid-cols-2 gap-6px'>
             <li className='two-items'>
               <div className='items-title'>{heroLists[1].name}</div>
-              <ul className='img-wrap grid grid-cols-2 gap-5'>
+              <ul className='img-wrap grid grid-cols-2'>
                 {heroLists[1].imgLists.map((s, si) => (
                   <li className='img-item' key={s}>
                     <img
@@ -57,7 +57,7 @@ export default function mainSix() {
             </li>
             <li className='two-items'>
               <div className='items-title'>{heroLists[2].name}</div>
-              <ul className='img-wrap grid grid-cols-2 gap-5'>
+              <ul className='img-wrap grid grid-cols-2'>
                 {heroLists[2].imgLists.map((s, si) => (
                   <li className='img-item' key={s}>
                     <img
@@ -73,7 +73,7 @@ export default function mainSix() {
             </li>
           </div>
 
-          <li className='one-items'>
+          <li className='four-items'>
             <div className='items-title'>{heroLists[3].name}</div>
             <ul className='img-wrap grid grid-cols-4 gap-5'>
               {heroLists[3].imgLists.map((s, si) => (
@@ -92,7 +92,7 @@ export default function mainSix() {
 
           <li className='three-items'>
             <div className='items-title'>{heroLists[4].name}</div>
-            <ul className='img-wrap grid grid-cols-3 gap-x-10 gap-y-5'>
+            <ul className='img-wrap grid grid-cols-3 gap-40px gap-y-5'>
               {heroLists[4].imgLists.map((s, si) => (
                 <li className='img-item' key={s}>
                   <img
@@ -107,9 +107,9 @@ export default function mainSix() {
             </ul>
           </li>
 
-          <li className='four-items'>
+          <li className='three-items'>
             <div className='items-title'>{heroLists[5].name}</div>
-            <ul className='img-wrap grid grid-cols-3 gap-x-10 gap-y-5'>
+            <ul className='img-wrap grid grid-cols-3 gap-40px gap-y-5'>
               {heroLists[5].imgLists.map((s, si) => (
                 <li className='img-item' key={s}>
                   <img

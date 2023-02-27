@@ -1,9 +1,13 @@
-import React, { useState } from "react"
-import HeaderTagLists from "../headerTagLists/headerTagLists"
-import "./header750.scss"
+import React, { useState } from 'react'
+import HeaderTagLists from '../headerTagLists/headerTagLists'
+import './header750.scss'
 
 export default function header() {
   const [showTitle, setShowTitle] = useState(false)
+  const handleClick = () => {
+    const cur = showTitle
+    setShowTitle(!cur)
+  }
   return (
     <header className='header'>
       <div className='header-left'>
@@ -14,14 +18,10 @@ export default function header() {
       <div className='header-right'>
         <img
           className='title-btn'
-          src='/imgs/pc/more.png'
-          onClick={() => {
-            console.log('dsada')
-            const cur = showTitle
-            setShowTitle(!cur)
-          }}
+          src={`/imgs/pc/${!showTitle ? 'more.png' : 'more-green.png'}`}
+          onClick={handleClick}
         />
-        <HeaderTagLists show={showTitle} />
+        <HeaderTagLists show={showTitle} setShowTitle={setShowTitle} />
 
         <ul className='icon-lists'>
           <li>

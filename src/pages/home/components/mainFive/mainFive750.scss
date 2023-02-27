@@ -1,5 +1,10 @@
 @import "/src/pages/common/help.scss";
 @import'./mainFive1980.scss';
+.main-five{
+  .desc{
+    font-family: HarmonyOS_Sans_Regular;
+  }
+}
 @media screen and (max-width: 750px) {
   .main-five {
     .main-bg {

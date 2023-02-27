@@ -1,5 +1,9 @@
 @import "/src/pages/common/help.scss";
 @import'./footer1980.scss';
+.footer {
+.page-footer {
+  font-family: HarmonyOS_Sans_Regular;
+}}
 @media screen and (max-width: 750px) {
   .footer {
     .main-bg {

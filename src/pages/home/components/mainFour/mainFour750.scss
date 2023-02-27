@@ -1,5 +1,8 @@
-@import "/src/pages/common/help.scss";
-@import'./mainFour1980.scss';
+@import '/src/pages/common/help.scss';
+@import './mainFour1980.scss';
+.main-four {
+  font-family: HarmonyOS_Sans_Regular;
+}
 @media screen and (max-width: 750px) {
   .main-four {
     .main-bg {
@@ -13,11 +16,16 @@
       position: relative;
       .text-wrap {
         position: absolute;
+        .green-t {
+          font-size: px(18);
+          font-family: Videopac;
+          color: $green;
+        }
         .desc {
-          font-size: 14px;
+          font-size: px(14);
           color: #f5e1dc;
           width: 252px;
-          line-height: 25px;
+          line-height: px(25);
           padding-left: 8px;
         }
       }
@@ -28,6 +36,11 @@
       line-clamp: 2;
       box-orient: vertical;
       height: 50px;
+    }
+    .dark-wrap {
+      .green-t {
+        line-height: px(25);
+      }
     }
     .light-wrap {
       margin-bottom: 14px;
