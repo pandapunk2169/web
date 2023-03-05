@@ -14,19 +14,23 @@ export default function mainOne() {
           />
           <p className='main-title'>
             PANDAPUNK 2169
-            <br className='pc-hidden' />
-            MINT YOUR HEROS
+            {/* <br className='pc-hidden' />
+            MINT YOUR HEROS */}
           </p>
-          <p className='main-sub-title'>TOTAL SUPPLY PANDARENs: 10,000 NFTs</p>
-          <div className='main-th-title-wrap'>
-            <p className='main-th-title'>
-              CONTRACT ADDRESS : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </p>
-            <img className='copy' src='/imgs/pc/copy.png' />
-            {/* src='/imgs/pc/copy.png' */}
+          <div className='line-btn-wrap'>
+            <img src="/imgs/pc/entry_panda.png" alt="" />
+            <img src="/imgs/pc/open_new.png" alt="" />
           </div>
+          {/* <p className='main-sub-title'>TOTAL SUPPLY PANDARENs: 10,000 NFTs</p> */}
+          {/* <div className='main-th-title-wrap'> */}
+            {/* <p className='main-th-title'> */}
+              {/* CONTRACT ADDRESS : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */}
+            {/* </p> */}
+            {/* <img className='copy' src='/imgs/pc/copy.png' /> */}
+            {/* src='/imgs/pc/copy.png' */}
+          {/* </div> */}
         </div>
-        <ul className='time-wrap'>
+        {/* <ul className='time-wrap'>
           <li>
             <p className='title'>WHITELIST</p>
             <p className='coin'>0.025 ETH PER WALLET</p>
@@ -57,8 +61,8 @@ export default function mainOne() {
               </ul>
             </div>
           </li>
-        </ul>
-        <div className='board-wrap'>
+        </ul> */}
+        {/* <div className='board-wrap'>
           <div className='board'>
             <div className='top'>
               <div className='count-reg-wrap flex'>
@@ -91,12 +95,12 @@ export default function mainOne() {
               </p>
             </div>
           </div>
-        </div>
-        <img className='c-w-btn' src='/imgs/pc/connect-wallet.png' />
+        </div> */}
+        {/* <img className='c-w-btn' src='/imgs/pc/connect-wallet.png' />
         <div className='end-text-desc'>
           PANDAREN MINTED:
           <span className='green-t'>10,000</span>/ 10,000
-        </div>
+        </div> */}
       </div>
     </main>
   )

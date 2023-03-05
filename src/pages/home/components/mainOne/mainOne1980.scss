@@ -214,5 +214,15 @@
         color: $green;
       }
     }
+    .line-btn-wrap {
+      display: flex;
+      margin-top: 56px;
+      img {
+        width: 338px;
+      }
+      :first-child {
+        margin-right: 18px;
+      }
+    }
   }
 }

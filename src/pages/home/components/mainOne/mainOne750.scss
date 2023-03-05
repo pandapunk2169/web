@@ -223,5 +223,16 @@
         color: $green;
       }
     }
+    .line-btn-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-top: 29px;
+      img {
+        width: 338px;
+      }
+      :first-child {
+        margin-bottom: 18px;
+      }
+    }
   }
 }
