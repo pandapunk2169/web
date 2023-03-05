@@ -127,7 +127,7 @@ export default function mainSix() {
         <ul className='ind-lists'>
           <li>
             <div className='ind-lists-title flex'>
-              <img className='icon' src='' alt='' />
+              <img className='icon' src='/imgs/app/ppp-logo.png' alt='' />
               <div className='right'>
                 <div>WHAT IS PPP ?</div>
                 <p>PANDA PUNK PALLADIUM</p>
@@ -143,10 +143,10 @@ export default function mainSix() {
           </li>
           <li>
             <div className='ind-liststitle flex'>
-              <img className='icon' src='' alt='' />
+              <img className='icon' src='/imgs/app/ppt-logo.png' alt='' />
               <div className='right'>
-                <div>WHAT IS PPP ?</div>
-                <p>PANDA PUNK PALLADIUM</p>
+                <div>WHAT IS PPT ?</div>
+                <p>PANDA PUNK TOKEN</p>
               </div>
             </div>
             <div className='ind-lists-desc'>

@@ -15,13 +15,20 @@
       padding-left: 15px;
       padding-right: 15px;
       width: 100%;
+      overflow: hidden;
+    }
+    .ava-lists-content {
+      display: flex;
+      position: relative;
     }
     .ava-lists {
       display: grid;
-      grid-template-columns: repeat(9, minmax(0, 1fr));
-      gap: px2(29);
-      width: 100%;
+      grid-template-columns: auto auto auto auto auto;
+      grid-template-rows: auto auto auto;
+      gap: px2(29) px2(27);
+      min-width: px2(918);
       margin-top: px2(195);
+      margin-right: px2(27);
       li {
         margin-right: auto;
         margin-left: auto;

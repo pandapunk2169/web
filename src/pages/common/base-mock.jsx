@@ -1,14 +1,25 @@
-export const avaLists = [
+export const avaLists1 = [
   "/imgs/ava/1.png",
   "/imgs/ava/2.png",
   "/imgs/ava/3.png",
   "/imgs/ava/4.png",
-  "/imgs/ava/5.png",
-  "/imgs/ava/6.png",
-  "/imgs/ava/7.png",
-  "/imgs/ava/8.png",
-  "/imgs/ava/9.png",
-]
+  "/imgs/ava/5.png"
+];
+export const avaLists2 = [
+  "/imgs/ava/2-1.png",
+  "/imgs/ava/2-2.png",
+  "/imgs/ava/2-3.png",
+  "/imgs/ava/2-4.png",
+  "/imgs/ava/2-5.png"
+];
+export const avaLists3 = [
+  "/imgs/ava/3-1.png",
+  "/imgs/ava/3-2.png",
+  "/imgs/ava/3-3.png",
+  "/imgs/ava/3-4.png",
+  "/imgs/ava/3-5.png"
+];
+
 export const historyLists = [
   {
     title: "In 2035",
