@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './mainSeven750.scss'
 import { bigHeroLists } from '@pages/common/base-mock.jsx'
 
 export default function mainSeven() {
+  const [fristAnswerStatus, setFristAnswerStatus] = useState(true);
+  const [secondAnswerStatus, setSecondAnswerStatus] = useState(false);
+  const [thridAnswerStatus, setThridAnswerStatus] = useState(false);
+  const [fourchAnswerStatus, setFourchAnswerStatus] = useState(false);
+  const [fiveAnswerStatus, setFiveAnswerStatus] = useState(false);
   return (
     <main className='main-seven'>
       <div className='main-bg-wrap app-hidden'>
@@ -46,24 +51,56 @@ export default function mainSeven() {
         <div id='faq' className='ask-wrap'>
           <div className='ask-title'>FREQUENTLY ASKED QUESTIONS</div>
           <p className='ask-sub-title'>PANDAREN FAITH ETERNITY</p>
-          <div className='ask-third-title'>WHAT IS PANDAPUNK 2169 ?</div>
-          <div className='ask-desc'>
+          <div className='ask-third-title' onClick={() => {
+            setFristAnswerStatus(!fristAnswerStatus);
+          }}>WHAT IS PANDAPUNK 2169 ?</div>
+          {
+            fristAnswerStatus && <div className='ask-desc'>
             Pandapunk 2169 is a community driven Web3 Gamefi & Metaverse
             project. Using NFT as the brand value, PPP and PPT as the token
             economic model to build a brand new Pandaren Ecosystem.
           </div>
-          <div className='ask-third-title'>
+          }
+          <div className='ask-third-title' onClick={() => {
+            setSecondAnswerStatus(!secondAnswerStatus);
+          }}>
             HOW MANY TOTAL NFTs & CHARACTERS ?
           </div>
-          <div className='ask-third-title'>
+          {
+            secondAnswerStatus && <div className='ask-desc'>
+            8,888 Padaren heros will be minted for the first time.It’s including 100 different Pandaren characters.
+          </div>
+          }
+          <div className='ask-third-title' onClick={() => {
+            setThridAnswerStatus(!thridAnswerStatus);
+          }}>
             ARE THE DIFFERENT LEVELS OF NFTS ?
           </div>
-          <div className='ask-third-title'>
+          {
+            thridAnswerStatus && <div className='ask-desc'>
+            Right.Total 4 different levels representing of the Pandaren hierarchy.They have different shapes,weapons,clothing etc..
+          </div>
+          }
+          <div className='ask-third-title' onClick={() => {
+            setFourchAnswerStatus(!fourchAnswerStatus);
+          }}>
             HOW TO GET THE PANDAPUNK 2169 NFTS ?
           </div>
-          <div className='ask-third-title'>
+          {
+            fourchAnswerStatus && <div className='ask-desc'>
+            NFT will be minted on Ethereum, you need to hold a certain amount of ETH in your wallet for mint and transfer gas fee. In the process of Mint, there is an opportunity to obtain additional PPP or PPT rewards.
+          </div>
+          }
+          <div className='ask-third-title' onClick={() => {
+            setFiveAnswerStatus(!fiveAnswerStatus);
+          }}>
             WILL THERE REALLY BE A PANDAPUNK 2169 METAVERSE ?
           </div>
+          {
+            fiveAnswerStatus && <div className='ask-desc'>
+            Yes.Please trust the Pandaren's Honor. Join and contribute your strength.
+          </div>
+          }
           <img
             className='ask-green-third-title'
             src='/imgs/pc/greentext.png'

@@ -16,7 +16,7 @@ export default function mainThree() {
   }, [clientWidth])
 
   return (
-    <main className='main-three'>
+    <main className='main-three' id="revelation">
       <img className='main-bg' src='/imgs/app/main-bg3.png' />
       <img className='big-main-bg' src='/imgs/pc/main-bg3.png' />
       <div className='main-wrap'>
