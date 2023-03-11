@@ -26,10 +26,15 @@
         }
       }
     }
+    .dark-wrap {
+      .text-wrap {
+        margin-left: px2(110);
+      }
+    }
     .light-wrap {
       margin-bottom: 14px;
       .text-wrap {
-        margin-left: px2(120);
+        margin-left: px2(250);
       }
     }
     .title {
@@ -59,7 +64,7 @@
         white-space: nowrap;
         line-height: 36px;
         font-size: 14px;
-        margin-left: px2(120);
+        margin-left: 100px;
       }
     }
   }

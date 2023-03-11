@@ -11,7 +11,7 @@ export default function mainTwo() {
         <p className='s-title'>ARE YOU MUTANT PANDA?</p>
         <div className='btn-wrap app-hidden'>
           <img className='twitter-btn' src='/imgs/pc/twitter-btn.png' />
-          <img src='/imgs/pc/discord-btn.png' />
+          {/* <img src='/imgs/pc/discord-btn.png' /> */}
         </div>
         <img className='twitter-btn pc-hidden' src='/imgs/pc/twitter-btn.png' />
         <img className='pc-hidden' src='/imgs/pc/discord-btn.png' />

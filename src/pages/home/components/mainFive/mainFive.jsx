@@ -3,13 +3,13 @@ import './mainFive750.scss'
 
 export default function mainFive() {
   return (
-    <main className='main-five'>
+    <main className='main-five' id='vision'>
       <img className='main-bg' src='/imgs/app/main-bg5.png' />
       <img className='big-main-bg' src='/imgs/pc/main-bg5.png' />
 
       <div className='main-wrap'>
         <div className='vision-desc-wrap'>
-          <div id='vision' className='title'>
+          <div className='title'>
             PALADIN'S VISION
           </div>
           <p className='desc'>

@@ -49,10 +49,12 @@
       }
       .left {
         position: absolute;
+        top: px2(50);
         left: px2(-150);
       }
       .right {
         position: absolute;
+        top: px2(50);
         right: px2(-150);
       }
     }

@@ -27,12 +27,12 @@ export default function header() {
           <li>
             <img src='/imgs/pc/twitter.png' alt='twitter' />
           </li>
-          <li>
+          {/* <li>
             <img src='/imgs/pc/game.png' alt='game' />
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <img src='/imgs/pc/wallet.png' alt='wallet' />
-          </li>
+          </li> */}
         </ul>
       </div>
     </header>
