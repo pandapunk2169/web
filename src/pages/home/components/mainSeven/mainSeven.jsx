@@ -68,7 +68,7 @@ export default function mainSeven() {
           </div>
           {
             secondAnswerStatus && <div className='ask-desc'>
-            8,888 Padaren heros will be minted for the first time.It’s including 100 different Pandaren characters.
+            10,000 Padaren heros will be minted for the first time.It’s including 100 different Pandaren characters.
           </div>
           }
           <div className='ask-third-title' onClick={() => {

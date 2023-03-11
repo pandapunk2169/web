@@ -17,10 +17,10 @@ export default function footer() {
                 src='/imgs/pc/twitter.png'
                 alt='twitter'
               />
-              <img src='/imgs/pc/game.png' alt='game' />
+              {/* <img src='/imgs/pc/game.png' alt='game' /> */}
             </div>
             <div className='page-footer'>
-              2022 COPY RIGHT@PANDAPUNK 2169 . BRON FOR PANDARENS
+              2023 COPY RIGHT@PANDAPUNK 2169 . BRON FOR PANDARENS
             </div>
           </div>
           <div className='icon-lists pc-hidden flex'>
@@ -29,10 +29,10 @@ export default function footer() {
               src='/imgs/pc/twitter.png'
               alt='twitter'
             />
-            <img src='/imgs/pc/game.png' alt='game' />
+            {/* <img src='/imgs/pc/game.png' alt='game' /> */}
           </div>
           <div className='page-footer pc-hidden'>
-            2022 COPY RIGHT@PANDAPUNK 2169 . BRON FOR PANDARENS
+            2023 COPY RIGHT@PANDAPUNK 2169 . BRON FOR PANDARENS
           </div>
         </div>
       </main>
