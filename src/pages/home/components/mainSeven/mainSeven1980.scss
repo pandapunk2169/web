@@ -71,13 +71,15 @@
         .ask-third-title {
           text-align: center;
           font-size: px2(30);
+          margin: 0 auto;
           margin-bottom: 35px;
           cursor: pointer;
         }
         .ask-green-third-title {
+          width: 300px;
           margin-left: auto;
           margin-right: auto;
-          margin-top: px2(40);
+          margin-top: px2(80);
         }
         .ask-desc {
           font-family: HarmonyOS_Sans_Regular;
