@@ -16,6 +16,9 @@ export default function footer() {
                 className='icon-first'
                 src='/imgs/pc/twitter.png'
                 alt='twitter'
+                onClick={() => {
+                  location.href = "https://twitter.com/PandaPunk2169"
+                }}
               />
               {/* <img src='/imgs/pc/game.png' alt='game' /> */}
             </div>
@@ -28,6 +31,9 @@ export default function footer() {
               className='icon-first'
               src='/imgs/pc/twitter.png'
               alt='twitter'
+              onClick={() => {
+                location.href = "https://twitter.com/PandaPunk2169"
+              }}
             />
             {/* <img src='/imgs/pc/game.png' alt='game' /> */}
           </div>

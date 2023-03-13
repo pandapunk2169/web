@@ -10,10 +10,14 @@ export default function mainTwo() {
         <p className='f-title'>JION THE PANDA UNIVERSE</p>
         <p className='s-title'>ARE YOU MUTANT PANDA?</p>
         <div className='btn-wrap app-hidden'>
-          <img className='twitter-btn' src='/imgs/pc/twitter-btn.png' />
+          <img className='twitter-btn' src='/imgs/pc/twitter-btn.png' onClick={() => {
+            location.href = "https://twitter.com/PandaPunk2169"
+          }} />
           {/* <img src='/imgs/pc/discord-btn.png' /> */}
         </div>
-        <img className='twitter-btn pc-hidden' src='/imgs/pc/twitter-btn.png' />
+        <img className='twitter-btn pc-hidden' src='/imgs/pc/twitter-btn.png'  onClick={() => {
+            location.href = "https://twitter.com/PandaPunk2169"
+          }} />
         <img className='pc-hidden' src='/imgs/pc/discord-btn.png' />
       </div>
     </main>

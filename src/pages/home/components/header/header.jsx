@@ -25,7 +25,9 @@ export default function header() {
 
         <ul className='icon-lists'>
           <li>
-            <img src='/imgs/pc/twitter.png' alt='twitter' />
+            <img src='/imgs/pc/twitter.png' alt='twitter' onClick={() => {
+            location.href = "https://twitter.com/PandaPunk2169"
+          }}/>
           </li>
           {/* <li>
             <img src='/imgs/pc/game.png' alt='game' />
