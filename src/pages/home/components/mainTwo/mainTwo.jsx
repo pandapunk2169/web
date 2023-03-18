@@ -18,7 +18,7 @@ export default function mainTwo() {
         <img className='twitter-btn pc-hidden' src='/imgs/pc/twitter-btn.png'  onClick={() => {
             location.href = "https://twitter.com/PandaPunk2169"
           }} />
-        <img className='pc-hidden' src='/imgs/pc/discord-btn.png' />
+        {/* <img className='pc-hidden' src='/imgs/pc/discord-btn.png' /> */}
       </div>
     </main>
   )
