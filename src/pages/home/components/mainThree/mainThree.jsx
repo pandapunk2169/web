@@ -27,21 +27,25 @@ export default function mainThree() {
         <p className='title'>Nuclear Explosion</p>
         <div className='ava-lists-wrap'>
           <div className='ava-lists-content'>
-            <div className='ava-lists'>
+            <div className='ava-lists ava-item-one'>
+              {mavaLists.map((item) => (
+                <li>
+                  <img className='ava-item' src={item} key={item} />
+                </li>
+              ))}
+              <img className='ava-item ava-item-none-750' src='/imgs/ava/2-1.png' key='2-1' />
+              <img className='ava-item ava-item-none-750' src='/imgs/ava/2-2.png' key='2-2' />
+              <img className='ava-item ava-item-none-750' src='/imgs/ava/2-3.png' key='2-3' />
+              <img className='ava-item ava-item-none-750' src='/imgs/ava/2-4.png' key='2-4' />
+            </div>
+            <div className='ava-lists ava-item-two'>
               {mavaLists.map((item) => (
                 <li>
                   <img className='ava-item' src={item} key={item} />
                 </li>
               ))}
             </div>
-            <div className='ava-lists'>
-              {mavaLists.map((item) => (
-                <li>
-                  <img className='ava-item' src={item} key={item} />
-                </li>
-              ))}
-            </div>
-            <div className='ava-lists'>
+            <div className='ava-lists ava-item-three'>
               {mavaLists.map((item) => (
                 <li>
                   <img className='ava-item' src={item} key={item} />
