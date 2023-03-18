@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './headerTagLists750.scss'
 function IconLi({ setShowTitle }) {
-  const IconData = ['twitter', 'discord', 'wallet']
+  // const IconData = ['twitter', 'discord', 'wallet']
+  const IconData = ['twitter']
   const close = () => {
+    location.href = "https://twitter.com/PandaPunk2169";
     setShowTitle(false)
   }
   return (
