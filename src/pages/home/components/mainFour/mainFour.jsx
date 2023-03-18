@@ -19,7 +19,8 @@ export default function mainFour() {
           </div>
         </div>
         <div className='dark-wrap flex flex-col items-center justify-center'>
-          <img src='/imgs/app/dark.png' />
+        <img className="pc-hidden" src='/imgs/app/light.png' />
+          <img className="app-hidden" src='/imgs/app/dark.png' />
           <div className='text-wrap flex'>
             <span className='green-t self-start'>DARK:</span>
             <span className='desc'>War Killing and Destroy other races.</span>
